@@ -49,7 +49,7 @@ while ( userEmail != "" && confirmUserEmail != "")
 //     }
 //     calcularTotal() {
 //         this.total = this.subTotal + this.envio + this.calcularEnvio();
-//     }
+//     } 
 // }
 
 // const pedidoProducto = () => {
@@ -142,7 +142,11 @@ for ( const producto of productos ) {
     producto.sumarIva();
 }
 
-console.log(productos);
+// console.log(productos);
 
+const parrafo = document.querySelector("p");
+const boton = document.querySelector("button");
 
-
+boton.addEventListener("click", () => {
+    console.log("Click");
+});
