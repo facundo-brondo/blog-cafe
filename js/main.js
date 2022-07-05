@@ -144,8 +144,8 @@ for ( const producto of productos ) {
 
 // console.log(productos);
 
-const parrafo = document.querySelector("p");
-const boton = document.querySelector("button");
+const parrafo = document.querySelector("parrafo");
+const boton = document.querySelector("boton");
 
 boton.addEventListener("click", () => {
     console.log("Click");
